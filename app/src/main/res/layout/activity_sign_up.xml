@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:text="@string/signup"
         android:id="@+id/button3"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:background="#3ef36e" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -162,8 +163,9 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radavata">
 
             <RadioButton
                 android:layout_width="wrap_content"
